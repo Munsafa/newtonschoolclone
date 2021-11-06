@@ -1,0 +1,38 @@
+.cc-firstDiv{
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: space-around;
+    background: rgb(17, 180, 230);
+}
+.cc-textdiv{
+    margin: 10px;
+    color: white;
+    width: 80%;
+}
+.cc-textdiv p{
+    font-size: 2.5rem;
+}
+.cc-textdiv li{
+    font-size: 1.8rem;
+}
+.cc-textdiv button{
+    display: block;
+    align-items: center;
+    text-align: center;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    font-size: 1.4rem;
+    padding: 6px;
+    background: rgba(1, 1, 46, 0.938);
+    color: white;
+    margin: 5px;
+    width: 200px;
+}
+.cc-textdiv button:hover{
+    cursor: pointer;
+}
+.cc-imgdiv{
+    margin-top: 20px;
+}

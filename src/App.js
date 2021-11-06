@@ -1,25 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react';
+import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import LaunchPad from './LaunchPad';
+import CodingContest from './CodingContest';
+import Header from './Header';
+import Home from "./Home"
+import HireFromUs from './HireFromUs';
+import Fees from './Fees';
+import Login from './Login';
+import SignUp from './SignUp';
 
-function App() {
-  return (
+class App extends Component {
+  render() {
+    return (
+      <Router>
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <Switch>
+      <Route path="/" exact component={Home} />
+      <Route path="/launchpad" component={LaunchPad} />
+      <Route path="/codingcontest" component={CodingContest} />
+      <Route path="/hirefromus" component={HireFromUs} />
+      <Route path="/fees" component={Fees} />
+      <Route path="/login" component={Login} />
+      <Route path="/signup" component={SignUp} />
+      </Switch>
     </div>
-  );
+      </Router>
+    );
+  }
 }
 
 export default App;

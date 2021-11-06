@@ -1,0 +1,55 @@
+.maindiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 50%;
+    margin: auto;
+    margin-top: 10%;
+    background: white;
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+}
+.maindiv p {
+    color: gray;
+    font-size: 1.5rem;
+}
+.email-mobile button {
+    /* display: flex; */
+    align-items: center;
+    text-align: center;
+    border: none;
+    outline: none;
+    background: none;
+    padding: 15px 30px 10px 0px;
+    margin-left: 5px;
+    font-size: 1rem;
+}
+.maindiv button:hover{
+    cursor: pointer;
+    color: blue;
+    /* text-decoration: 2px solid blue; */
+    border-bottom: 2px solid blue;
+}
+form input{
+    background: none;
+    font-size: 1rem;
+    color: gray;
+    padding: 2px;
+    margin: 5px;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid gray;
+}
+.submitbtn{
+    display: block;
+    text-align: center;
+    background: rgb(10, 116, 238);
+    font-size: 1.4rem;
+    border-radius: 20px;
+    border: none;
+    width: 35%;
+    position: relative;
+    left: 32%;
+    padding: 3px;
+    margin: 10px;
+}

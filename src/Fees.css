@@ -1,0 +1,50 @@
+.fees-introdiv{
+    display: block;
+    padding: 25px 0px 25px 369px;
+    margin-right: auto;
+    background: rgb(79,203,139);
+    /* height: 200px; */
+background: linear-gradient(90deg, rgba(79,203,139,1) 0%, rgba(71,250,188,1) 0%, rgba(2,211,254,1) 100%);
+color: #fff;
+}
+.fees-introdiv p {
+    font-size: 2.5rem;
+}
+.fees-isa-def{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+background: #e2e2e2; /* Old browsers */
+background: -moz-linear-gradient(left,  #e2e2e2 0%, #dbdbdb 27%, #fefefe 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  #e2e2e2 0%,#dbdbdb 27%,#fefefe 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  #e2e2e2 0%,#dbdbdb 27%,#fefefe 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2e2e2', endColorstr='#fefefe',GradientType=1 ); /* IE6-9 */
+color: gray;
+height: 250px;
+}
+.fees-isa-def-text-div{
+    display: block;
+width: 50%;
+float: left;
+}
+
+.fees-about-isa-div{
+display: flex;
+align-items: center;
+justify-content: space-between;
+margin-top: 10px;
+}
+#about-heading{
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 12px;
+font-size: 2rem;
+}
+.fees-about-isa{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: auto;
+    align-items: center;
+}

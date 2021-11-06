@@ -1,0 +1,50 @@
+.headerDiv{
+  position: sticky;
+  top: 0;
+  background: white;
+}
+li{
+    list-style-type: none;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+    color: rgb(12, 12, 12);
+    padding: 3px;
+}
+a :hover {
+    border-radius: 20%;
+    background: rgb(245, 244, 242);
+}
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* min-height: 1vh; */
+  height: 50px;
+  padding-top: 10px;
+  color: white;
+}
+.logodiv{
+    font-size: 1.5rem;
+}
+.nav-links{
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  font-size: 1.5rem;
+}
+.logsignlinks {
+    width: 10%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  color: rgb(9, 15, 194);
+}
+.logsignlinks a {
+
+  color: rgb(9, 15, 194);
+}

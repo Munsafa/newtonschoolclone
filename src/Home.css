@@ -1,0 +1,45 @@
+.home-maindiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* font-size: 2rem; */
+}
+.home-img-text-div{
+    display: flex;
+    width: 70%;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+.home-textdiv{
+    /* width: 30%; */
+    /* height: fit-content; */
+    justify-content: space-between;
+    /* background: blue; */
+}
+.home-jobspan{
+    color: rgb(53, 90, 241);
+}
+.home-applybtn{
+    display: flex;
+    background: blue;
+    color: white;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    height: 50px;
+    width: 300px;
+    border: none;
+    outline: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-company-name-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 80%;
+    /* margin: auto; */
+}
