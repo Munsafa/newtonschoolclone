@@ -1,13 +1,12 @@
-import React, { useState } from "react";
+import React from "react";
 import { useForm } from "react-hook-form";
 import "./SignUp.css"
                                         
 function SignUp() {
     const onSubmit = data => {
         console.log(data)
-        { register("") }
 };
-    const { register, handleSubmit, errors } = useForm();
+    const { register, handleSubmit} = useForm();
     return (
         <div className="signup-maindiv">
             <form className="signup-form" onSubmit={handleSubmit(onSubmit)}>

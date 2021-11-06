@@ -3,7 +3,7 @@ import { courseData} from "./data"
 import { Link } from 'react-router-dom'
 import "./Launchpad.css"
 import launchpadimg from "./launchpadimg.webp"
-import SignUp from "./SignUp"
+// import SignUp from "./SignUp"
 function LaunchPad() {
     console.log(courseData)
     return (

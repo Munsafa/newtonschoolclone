@@ -4,8 +4,8 @@ import "./Login.css"
 export default function Login() {
     const [mobile,setMobile]= useState(false)
     const { register, handleSubmit} = useForm();
-    const onSubmit = data => {console.log(data)
-    {register("")}
+    const onSubmit = data => {
+        console.log(data)
     };
     const handleMobile = ()=> {
         setMobile(true)
